@@ -1,20 +1,11 @@
 ---
 name: rev-unicorn-debug
-description: Debug specific code snippets or functions using Unicorn emulator with environment simulation via hooks
+description: Debug and emulate specific code fragments or functions using the Unicorn engine. Activate when the user wants to emulate a function with Unicorn, trace binary execution without running the full program, decrypt or decode data by emulating the algorithm, or bypass environment dependencies (JNI, syscalls, libc) during emulation.
 ---
 
 # rev-unicorn-debug - Unicorn Emulation Debugger
 
 Debug and emulate specific code fragments or functions using the Unicorn engine. Analyze context dependencies (JNI, syscalls, library functions) and simulate them through hook mechanisms to complete the user's debugging goal.
-
-## When to Use
-
-Activate when the user asks to:
-- Emulate / debug a specific function or code snippet with Unicorn
-- Trace execution of a binary fragment without running the full program
-- Understand what a function does by stepping through it
-- Decrypt / decode data by emulating the algorithm
-- Bypass environment dependencies (JNI, syscalls, libc) during emulation
 
 ---
 

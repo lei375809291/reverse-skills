@@ -1,20 +1,11 @@
 ---
 name: rev-frida
-description: Generate Frida hook scripts using modern Frida API for dynamic instrumentation and runtime analysis
+description: Generate Frida hook scripts using modern Frida API. Activate when the user wants to write Frida scripts, hook functions at runtime, trace calls/arguments/return values, intercept native or ObjC/Java methods, or dump memory and exports.
 ---
 
 # rev-frida - Frida Script Generator
 
 Generate Frida instrumentation scripts for dynamic analysis, hooking, and runtime inspection.
-
-## When to Use
-
-Activate when the user asks to:
-- Write or generate a Frida script / hook
-- Hook a function at runtime
-- Trace function calls, arguments, or return values
-- Intercept native or ObjC/Java methods
-- Dump memory, modules, or exports at runtime
 
 ---
 
